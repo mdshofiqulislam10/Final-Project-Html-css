@@ -1,0 +1,38 @@
+.navber{
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+.h5{
+    font-size: 24px;
+    font-weight: bold;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    /* border: 1px solid; */
+}
+.li{
+    /* border: 1px solid; */
+    margin-left: 20px;
+    
+}
+.li a{
+    text-decoration: none;
+    color:black;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.h3-tag{
+    font-size: 44px;
+    font-weight: bold;
+}
