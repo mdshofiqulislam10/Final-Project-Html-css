@@ -1,3 +1,4 @@
+
 .navber{
     display: flex;
     /* border: 1px solid; */
@@ -35,4 +36,117 @@
 .h3-tag{
     font-size: 44px;
     font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.camera1{
+    width: 200px;
+    height: 200px;
+}
+.hero button{
+    background-color: crimson;
+}
+/* .button1{
+    border: 1px solid;
+    border-radius: 50px;
+    color: white;
+} */
+
+.button1{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px ;
+    gap: 5px;
+    font-size: 16px;
+    
+}
+.icon{
+    width: 50px;
+    height: 30px;
+}
+.footer{
+    /* border: 2px solid; */
+    margin-top: 100px;
+    justify-content: space-between;
+   
+}
+.img1{
+    margin-left: 50px;
+    padding-right: 60px;
+}
+
+/* this image hover section word */
+.hover-image{
+    /* border: 2px solid; */
+    margin-top: 100px;
+    width: 320px;
+    height: 450px;
+    margin-left: 30px;
+    background-color:#ffffff;
+    box-shadow: 1px 2px 4px rgba(100, 37, 66, 0.7);
+    ;
+}
+.po{
+    text-align: center;
+    margin-top: 70px;
+}
+.first{
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 3px;
+    border-radius: 5px;
+}
+.fles{
+    margin-left: 10px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.rating{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: -15px;
+}
+.wor{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+/* this second image section */
+
+.hover-image1{
+    margin-top: 100px;
+    width: 320px;
+    height: 450px;
+    margin-left: 30px;
+    background-color:#ffffff;
+    box-shadow: 1px 2px 4px rgba(100, 37, 66, 0.7);
+}
+.second{
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 3px;
+    border-radius: 5px;
+}
+.fles1{
+    margin-left: 10px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.dolar{
+    margin-left: 10px;
+}
+
+.rating1{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: -15px;
+}
+.wor1{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.product-viwes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
