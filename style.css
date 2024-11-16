@@ -75,6 +75,10 @@
     margin-left: 50px;
     padding-right: 60px;
 }
+.product-containar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 /* this image hover section word */
 .hover-image{
@@ -149,4 +153,112 @@
 .product-viwes{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+/* this 3rd iamge section */
+
+.hover-image2{
+    margin-top: 100px;
+    width: 320px;
+    height: 450px;
+    margin-left: 30px;
+    background-color:#ffffff;
+    box-shadow: 1px 2px 4px rgba(100, 37, 66, 0.7);
+}
+.third{
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 3px;
+    border-radius: 5px;
+}
+.fles2{
+    margin-left: 10px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.dolar1{
+    margin-left: 10px;
+}
+.rating2{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: -15px;
+}
+.wor2{
+    margin-left: 10px;
+    font-size: 14px;
+}
+/* this fourth image section */
+
+.fourth{
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 3px;
+    border-radius: 5px;
+}
+.fles3{
+    margin-left: 10px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.dolar2{
+    margin-left: 10px;
+}
+.wor3{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.rating{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: -15px;
+}
+/* this five image section */
+.five{
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 3px;
+    border-radius: 5px;
+}
+.fles4{
+    margin-left: 10px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.dolar3{
+    margin-left: 10px;
+}
+.rating{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: -15px;
+}
+.wor4{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+/* this six image section */
+
+.six{
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 3px;
+    border-radius: 5px;
+}
+.fles5{
+    margin-left: 10px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.dolar4{
+    margin-left: 10px;
+}
+.rating{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: -15px;
+}
+.wor5{
+    margin-left: 10px;
+    font-size: 14px;
 }
