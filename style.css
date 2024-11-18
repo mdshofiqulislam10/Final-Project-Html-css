@@ -286,20 +286,13 @@
     display: flex;
     margin-right: 600px;
     text-decoration: none;
+    text-align: center;
+    align-items: center;
+   
 }
 .li-f{
     /* border: 2px solid yellow; */
     margin-left: 40px;
-}
-.li-f a{
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 30px;
-}
-.li-f a :hover{
-    background-color: crimson;
-    transition: all ease-in 0.5s;
-}
-.hover-image2{
-    transition: all ease-in 0.5s;
+    text-align: center;
+    align-items: center;
 }
