@@ -80,219 +80,40 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* this image hover section word */
-.hover-image{
-    /* border: 2px solid; */
-    margin-top: 100px;
-    width: 320px;
-    height: 450px;
-    margin-left: 30px;
-    background-color:#ffffff;
-    box-shadow: 1px 2px 4px rgba(100, 37, 66, 0.7);
-    ;
-}
-.po{
-    text-align: center;
+
+
+                                               /* start product card section */
+
+.product-title{
     margin-top: 70px;
-}
-.first{
-    margin-top: 10px;
-    margin-left: 10px;
-    box-shadow: 3px 3px 3px;
-    border-radius: 5px;
-}
-.fles{
-    margin-left: 10px;
+    text-align: center;
     font-size: 28px;
-    margin-top: 10px;
+    font-weight: bold;
+    box-shadow: 0 10px 15px rgba(202, 94, 94, 0.5);
+    width: 400px ;
+    margin-left: 33%;
+    padding: 10px;
 }
-.rating{
-    margin-left: 10px;
-    font-size: 14px;
-    margin-top: -15px;
-}
-.wor{
-    margin-left: 10px;
-    font-size: 14px;
-}
-
-/* this second image section */
-
-.hover-image1{
-    margin-top: 100px;
-    width: 320px;
+.product-card{
+    border: 1px solid white;
+    width: 300px;
     height: 450px;
-    margin-left: 30px;
-    background-color:#ffffff;
-    box-shadow: 1px 2px 4px rgba(100, 37, 66, 0.7);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 10px;
 }
-.second{
-    margin-top: 10px;
-    margin-left: 10px;
-    box-shadow: 3px 3px 3px;
-    border-radius: 5px;
-}
-.fles1{
-    margin-left: 10px;
+.product-name{
     font-size: 28px;
-    margin-top: 10px;
-}
-.dolar{
-    margin-left: 10px;
-}
-
-.rating1{
-    margin-left: 10px;
-    font-size: 14px;
-    margin-top: -15px;
-}
-.wor1{
-    margin-left: 10px;
-    font-size: 14px;
-}
-.product-viwes{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-/* this 3rd iamge section */
-
-.hover-image2{
-    margin-top: 100px;
-    width: 320px;
-    height: 450px;
-    margin-left: 30px;
-    background-color:#ffffff;
-    box-shadow: 1px 2px 4px rgba(100, 37, 66, 0.7);
-}
-.third{
-    margin-top: 10px;
-    margin-left: 10px;
-    box-shadow: 3px 3px 3px;
-    border-radius: 5px;
-}
-.fles2{
-    margin-left: 10px;
-    font-size: 28px;
-    margin-top: 10px;
-}
-.dolar1{
-    margin-left: 10px;
-}
-.rating2{
-    margin-left: 10px;
-    font-size: 14px;
-    margin-top: -15px;
-}
-.wor2{
-    margin-left: 10px;
-    font-size: 14px;
-}
-/* this fourth image section */
-
-.fourth{
-    margin-top: 10px;
-    margin-left: 10px;
-    box-shadow: 3px 3px 3px;
-    border-radius: 5px;
-}
-.fles3{
-    margin-left: 10px;
-    font-size: 28px;
-    margin-top: 10px;
-}
-.dolar2{
-    margin-left: 10px;
-}
-.wor3{
-    margin-left: 10px;
-    font-size: 14px;
-}
-.rating{
-    margin-left: 10px;
-    font-size: 14px;
-    margin-top: -15px;
-}
-/* this five image section */
-.five{
-    margin-top: 10px;
-    margin-left: 10px;
-    box-shadow: 3px 3px 3px;
-    border-radius: 5px;
-}
-.fles4{
-    margin-left: 10px;
-    font-size: 28px;
-    margin-top: 10px;
-}
-.dolar3{
-    margin-left: 10px;
-}
-.rating{
-    margin-left: 10px;
-    font-size: 14px;
-    margin-top: -15px;
-}
-.wor4{
-    margin-left: 10px;
-    font-size: 14px;
-}
-
-/* this six image section */
-
-.six{
-    margin-top: 10px;
-    margin-left: 10px;
-    box-shadow: 3px 3px 3px;
-    border-radius: 5px;
-}
-.fles5{
-    margin-left: 10px;
-    font-size: 28px;
-    margin-top: 10px;
-}
-.dolar4{
-    margin-left: 10px;
-}
-.rating{
-    margin-left: 10px;
-    font-size: 14px;
-    margin-top: -15px;
-}
-.wor5{
-    margin-left: 10px;
-    font-size: 14px;
-}
-
-/* this footer pattern */
-
-
-.second-footer{
-    display: flex;
-    /* border: 1px solid; */
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 100%;
-    height: 100px;
-    background-color: gray;
-    margin-left: 10px;
-}
-.f{
+    font-weight: bold;
+    margin-top: 6px;
     text-align: center;
-    font-size: 25px;
+    margin-bottom: -13px;
 }
-.ul-f{
-    list-style: none;
-    display: flex;
-    margin-right: 600px;
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
-   
+.product-price{
+    font-size: 24px;
+    margin-bottom: -15px;
 }
-.li-f{
-    /* border: 2px solid yellow; */
-    margin-left: 40px;
-    text-align: center;
-    align-items: center;
+.product-rating{
+    font-size: 22px;
+    margin-bottom: -8px;
 }
