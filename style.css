@@ -117,3 +117,36 @@
     font-size: 22px;
     margin-bottom: -8px;
 }
+.product-description{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.All-Card-Here{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+.product-main-div{
+    margin-left:35px ;
+    margin-right:35px ;
+    margin-bottom:35px ;
+}
+.product-card:hover{
+    box-shadow: 0 15px 20px blue ;
+}
+
+/* start 2nd card section */
+
+.product-card-second{
+    border: 1px solid white;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 4px 12px rgba(2, 3, 3, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+}
+.product-card-second:hover{
+    box-shadow:0 13px 15px crimson;
+}
