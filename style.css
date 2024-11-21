@@ -1,4 +1,8 @@
-
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
 .navber{
     display: flex;
     /* border: 1px solid; */
@@ -65,7 +69,7 @@
     width: 50px;
     height: 30px;
 }
-.footer{
+.png-image{
     /* border: 2px solid; */
     margin-top: 100px;
     justify-content: space-between;
@@ -137,7 +141,7 @@
     box-shadow: 0 15px 20px blue ;
 }
 
-/* start 2nd card section */
+                                      /* start 2nd card section */
 
 .product-card-second{
     border: 1px solid white;
@@ -149,4 +153,99 @@
 }
 .product-card-second:hover{
     box-shadow:0 13px 15px crimson;
+}
+
+                                         /* closs 2nd card section */
+.product-card-third{
+    border: 1px solid white;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 4px 12px rgba(2, 3, 3, 0.5) ;
+    border-radius: 15px;
+    padding: 10px;
+}
+.product-card-third:hover{
+    box-shadow: 0 15px 20px aqua;
+}
+.product-card-four{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 4px 12px rgba(3, 3, 3, 0.5);
+    padding: 10px;
+}
+.product-card-four:hover{
+    box-shadow: 0 15px 20px purple;
+}
+
+/* start footer section */
+footer{
+    background: #000;
+    margin-left: 30px;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    
+}
+.simpleText{
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+}
+.simpleText p{
+    color: white;
+    font-style: italic;
+    padding-top: 0;
+    margin-top: 0;
+    
+    
+}
+.socialIcon{
+   display: flex;
+   justify-content: center;
+}
+
+.socialIcon a{
+    text-decoration: none;
+    padding:10px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 50px;
+}
+.socialIcon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcon a:hover{
+    background-color: #000;
+    transition: 0.5s;
+}
+.socialIcon a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerButton{
+    margin: 30px 0;
+}
+.footerButton ul{
+    display: flex;
+    justify-content: center;
+}.footerButton ul li a{
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    opacity: 0.5;
+    transition: 0.5s;
+    border: 2px solid gray;
+}
+.footerButton ul li a:hover{
+    opacity: 1;
+    background-color: crimson;
+    transition: all ease-in 0.9s;
 }
