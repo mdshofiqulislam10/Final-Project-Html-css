@@ -155,7 +155,8 @@
     box-shadow:0 13px 15px crimson;
 }
 
-                                         /* closs 2nd card section */
+ /* closs 2nd card section */
+ /* start third card view */
 .product-card-third{
     border: 1px solid white;
     width: 300px;
@@ -167,6 +168,8 @@
 .product-card-third:hover{
     box-shadow: 0 15px 20px aqua;
 }
+/* closs third card view */
+/* start four card view */
 .product-card-four{
     border: 1px solid white;
     border-radius: 15px;
@@ -178,6 +181,37 @@
 .product-card-four:hover{
     box-shadow: 0 15px 20px purple;
 }
+/* closs four card view */
+/* start 5th card view */
+.product-card-five{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 4px 12px rgba(4, 4, 4, 4);
+    padding: 10px;
+}
+.product-name{
+    font-weight: bold;
+    
+}
+.product-card-five:hover{
+    box-shadow: 0 15px 20px royalblue;
+}
+/* closs five card view */
+/* start six card view */
+.product-card-six{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 4px 15px rgba(4, 4, 4, 4);
+    padding: 10px;
+}
+.product-card-six:hover{
+    box-shadow: 0 15px 20px fuchsia;
+}
+/* closs six card view */
 
 /* start footer section */
 footer{
